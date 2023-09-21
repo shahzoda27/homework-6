@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div {
+  width: 100%;
+  height: 100vh;
+}
+.div .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.div .box .id1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.div .box .id1 h3 {
+  margin-left: -300px;
+  color: #a6a6a6;
+}
+.div .box .id1 .border {
+  width: 400px;
+  margin-top: 20px;
+  border-bottom: 2px solid #a6a6a6;
+}
+.div .box .id1 .border1 {
+  width: 400px;
+  margin-top: 20px;
+  border-bottom: 3px solid rgb(76, 208, 208);
+}
+.div .box .id1 .h-3 {
+  color: black;
+}
+.div .box p {
+  margin-top: 10px;
+  color: red;
+  font-size: 25px;
+}
+.div .id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  color: #a6a6a6;
+}
+.div .id h3 {
+  margin-left: -250px;
+}
+.div .id .border {
+  width: 400px;
+  margin-top: 20px;
+  border-bottom: 2px dotted;
+}/*# sourceMappingURL=style.css.map */
